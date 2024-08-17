@@ -1,0 +1,139 @@
+{  
+  "files.eol": "\n",
+  "editor.fontFamily": "cascadia code nf",
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "cpp": true
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "code-runner.runInTerminal": true,
+  "workbench.preferredLightColorTheme": "Default Dark Modern",
+  "window.autoDetectColorScheme": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.commandCenter": true,
+  "[html]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "maven.executable.path": "mvn",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 20,
+  "git.openRepositoryInParentFolders": "never",
+  "prettier.tabWidth": 4,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.fontSize": 13,
+  "debug.javascript.resourceRequestOptions": {
+
+  },
+  "code-runner.executorMap": {
+
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python3 -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName",
+    "mojo": "mojo run"
+  },
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {
+
+  },
+  "workbench.colorTheme": "Default Dark Modern",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "remote.SSH.remotePlatform": {
+    "192.168.1.43": "linux"
+  },
+  "workbench.preferredDarkColorTheme": "Syntax Dark",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "workbench.productIconTheme": "adwaita",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#fffefb",
+    // "activityBar.background": "#333333",
+    // "editor.bor": "#494949",
+    "activityBar.foreground": "#ffffff",
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.applyToAllProfiles": [
+    
+  ],
+}
